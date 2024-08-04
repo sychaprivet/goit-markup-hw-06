@@ -27,7 +27,6 @@ button{
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .header .container{
   border-bottom: 1px solid #e7e9fc;
@@ -147,7 +146,7 @@ button{
 .second_section{
   padding: 120px 0;
 }
-.visually-hidden{
+.invisible .visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -281,10 +280,7 @@ button{
 }
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 1020px;
-  padding-left: 0;
+  padding: 100px 0;
 }
 .footer_web {
   font-family: "Raleway", sans-serif;
@@ -314,5 +310,5 @@ button{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 1440px;
+  max-width: 264px;
 }
