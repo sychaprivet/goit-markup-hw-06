@@ -27,6 +27,7 @@ button{
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .header .container{
   border-bottom: 1px solid #e7e9fc;
@@ -146,7 +147,7 @@ button{
 .second_section{
   padding: 120px 0;
 }
-.invisible{
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -159,7 +160,7 @@ button{
   overflow: hidden;
 }
 .desc_features{
-  max-width: calc((100%-3*24) / 4);
+  width: calc((100%-3*24) / 4);
 }
 .desc_list {
   display: flex;
@@ -250,14 +251,12 @@ button{
 .image {
   background-color: #ffffff;
   width: calc((100%-48) / 3);
-
+}
   .portfolio_container{
-    padding: 32px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
   }
-
-}
 .portfolio_title {
   font-weight: 500;
   font-size: 20px;
