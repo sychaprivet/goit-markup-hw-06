@@ -25,6 +25,9 @@ button{
   color: #434455;
   background-color: #ffffff;
 }
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
 .header .container{
   border-bottom: 1px solid #e7e9fc;
   display: flex;
