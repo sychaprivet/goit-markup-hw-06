@@ -37,7 +37,7 @@ button{
 .container{
   max-width: 1158px;
   padding: 0 15px;
-  margin 0 auto;
+  margin: 0 auto;
 }
 .header_logo {
   font-family: "Raleway", sans-serif;
@@ -183,6 +183,10 @@ button{
     color: #434455;
 }
 /* section 3 */
+.section_team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
 .team_title {
   font-weight: 700;
   font-size: 36px;
@@ -191,12 +195,12 @@ button{
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize; 
-}
-.section_team {
-  background-color: #f4f4fd;
+  margin-bottom: 72px;
 }
 .photo {
   background-color: #ffffff;
+  max-width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .member_title {
   font-weight: 500;
@@ -205,6 +209,16 @@ button{
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+.member_list{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.team_container{
+  padding: 32px 0;
 }
 .member_list .member_text {
   font-weight: 400;
@@ -217,7 +231,7 @@ button{
 }
 /* section 4 */
 .section_portfolio {
-  background-color: #F4F4FD;
+  padding: 120px 0;
 }
 .portfolio {
   font-weight: 700;
@@ -227,10 +241,19 @@ button{
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .image {
   background-color: #ffffff;
+  width: calc((100%-48) / 3);
+
+  .portfolio_container{
+    padding: 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
 }
 .portfolio_title {
   font-weight: 500;
@@ -238,6 +261,7 @@ button{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio_text {
   font-weight: 400;
@@ -248,10 +272,17 @@ button{
 }
 .portfolio_list {
   background-color: #FFFFFF;
-  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 1020px;
+  padding-left: 0;
 }
 .footer_web {
   font-family: "Raleway", sans-serif;
@@ -262,6 +293,8 @@ button{
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer_studio {
   font-family: "Raleway", sans-serif;
@@ -279,4 +312,5 @@ button{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 1440px;
 }
