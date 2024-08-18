@@ -637,19 +637,6 @@ button {
   margin-bottom: 8px;
 }
 
-.modal_label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-  width: 100%;
-  position: relative;
-}
-
 .modal_cont_input {
   position: relative;
 }
@@ -663,6 +650,17 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_input:hover,
+.modal_input:focus {
+  border-color: #4d5ae5;
+  fill: #4d5ae5;
+}
+
+.modal_input:hover + .modal_icon,
+.modal_input:focus + .modal_icon {
+  fill: #4d5ae5;
 }
 
 .modal_icon {
@@ -701,6 +699,15 @@ button {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.area_input_cont:hover,
+.area_input_cont:focus {
+  border-color: #4d5ae5;
+}
+
+.textarea_area {
+  margin-bottom: 16px;
 }
 
 .checkbox {
